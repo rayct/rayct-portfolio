@@ -257,11 +257,16 @@ header {
 }
 
 footer {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    text-align: center;
     padding: 100px 30px;
     background-color:rgb(136, 136, 136);
 }
+
+/* #footer-text {
+  text-align: center;
+} */
 
 .dark footer {
   background-color:rgb(28, 28, 28);
