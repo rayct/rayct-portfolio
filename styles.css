@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 90px;
   line-height: 70px;
-  font-weight: 300;
+  font-weight: 600;
   margin: 10px 0;
 }
 
@@ -25,7 +25,9 @@ h2 {
 
 p {
   margin: 0px;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 300;
+
 }
 
 a {
@@ -128,7 +130,7 @@ header {
 }
 
 #revenoo {
-  background-image: url("images/revenoo-app.png");
+  background-image: url("images/tailored_s.png");
   background-size: cover;
 }
 
