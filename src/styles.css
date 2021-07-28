@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(57, 57, 57);
 }
 
 .hero {
@@ -18,10 +18,12 @@ section {
 }
 
 footer {
-    background-color: black;
+    justify-content: center;
+    background-color: rgb(28, 28, 28);
     color: white;
     text-align: center;
-    padding: 80px;
+    /* padding: 80px; */
+    padding: 30px 30px 100px 30px;
 }
 
 nav {
@@ -108,10 +110,28 @@ p {
     margin: 20px;
 }
 
-.sub-section {
+.square {
+    width: 98%;
+    margin: 1%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+.dark .square {
+    background-color: rgb(71, 71, 71);
+}
+
+/* .sub-section {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+} */
+
+.sub-section {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sub-section-alternative {
@@ -121,16 +141,6 @@ p {
     padding: 80px;
 }
 
-/* .headshot {
-    width: 300px;
-    border-radius: 150px;
-    margin-left: 80px;
-} */
-
-/* .headshot-container {
-    display: flex;
-    align-items: center;
-} */
 
 .project-card {
     width: 300px;
@@ -142,6 +152,11 @@ p {
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.contact-me {
+    justify-content: center;
+    /* font-size: 90px; */
 }
 
 #myBtn {
@@ -218,7 +233,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
     .hamburger {
         display: block;
         border: 0;
