@@ -112,6 +112,26 @@ p {
     margin: 20px;
 }
 
+#tailoredscaffolding {
+    background-image: url("images/project1.jpg");
+    background-size: cover;
+}
+
+#burgerrator {
+    background-image: url("images/burgerrator.png");
+    background-size: cover;
+}
+
+#news {
+    background-image: url("images/news-app.png");
+    background-size: cover;
+}
+
+#dates {
+    background-image: url("images/dates-app.png");
+    background-size: cover;
+}
+
 .square {
     width: 98%;
     margin: 1%;
