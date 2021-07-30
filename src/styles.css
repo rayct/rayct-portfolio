@@ -215,11 +215,11 @@ p {
     /* Add a mouse pointer on hover */
     padding: 15px;
     /* Some padding */
-    border-radius: 5px;
+    border-radius: 100%;
     /* Rounded corners */
     width: 60px;
     height: 60px;
-    font-size: 20px;
+    font-size: 30px;
     /* Increase font size */
     font-weight: 500;
 }
