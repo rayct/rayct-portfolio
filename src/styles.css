@@ -66,6 +66,10 @@ p {
     color: white
 }
 
+.p-sub {
+    text-align: center;
+}
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
@@ -139,6 +143,7 @@ p {
 
 .information {
     font-size: 80px;
+    justify-content: center;
 }
 
 .square {
