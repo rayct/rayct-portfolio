@@ -314,4 +314,10 @@ a {
     .logo {
         display: none;
     }
+
+    .square {
+        width: 90%;
+        /* margin: 1%; */
+
+    }
 }
