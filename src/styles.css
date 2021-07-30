@@ -34,9 +34,10 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: 700px;
     justify-content: space-around;
     font-size: 30px;
+    padding: 20px;
 }
 
 li {
@@ -52,6 +53,10 @@ h2 {
     font-size: 50px;
     text-align: center;
     color: white;
+}
+
+h2-sub {
+    font-size: 80px;
 }
 
 p {
@@ -109,7 +114,7 @@ p {
 }
 
 .social {
-    margin: 20px;
+    margin: 40px;
 }
 
 #tailoredscaffolding {
@@ -132,13 +137,18 @@ p {
     background-size: cover;
 }
 
+.information {
+    font-size: 80px;
+}
+
 .square {
     width: 98%;
     margin: 1%;
-    height: 350px;
+    height: 300px;
     /* background-color: rgb(255, 255, 255); */
     background-color: rgb(71, 71, 71);
     text-align: center;
+
 }
 
 .sub-section {
@@ -150,18 +160,19 @@ p {
     background-color: rgb(71, 71, 71);
 }
 
-/* .sub-section {
+.sub-section {
     display: flex;
     justify-content: space-around;
     padding: 80px;
-} */
+    font-size: 80px;
+}
 
-/* .sub-section-alternative {
+.sub-section-alternative {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 80px;
-} */
+}
 
 
 .project-card {
@@ -178,7 +189,7 @@ p {
 
 .contact-me {
     justify-content: center;
-    /* font-size: 90px; */
+    font-size: 90px;
 }
 
 #myBtn {
@@ -234,7 +245,6 @@ p {
 .project-image {
     margin-top: 25px;
     width: 250px;
-    border-radius: 125px;
 }
 
 hr {
@@ -260,6 +270,13 @@ a {
     outline: 0;
 }
 
+.sub-container {
+    text-align: center;
+    padding: 90px;
+    color: #808080;
+    margin-bottom: 25px;
+}
+
 
 @media only screen and (max-width: 1000px) {
     .hamburger {
@@ -276,6 +293,7 @@ a {
         display: none;
         background-color: rgb(69, 69, 69);
         margin: 50px;
+        font-size: 40px;
     }
 
     ul.show {
