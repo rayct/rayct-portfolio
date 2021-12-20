@@ -1,7 +1,7 @@
 
-My Programming Languages Roadmap for 2022
-1. JavaScript 
-2. Python
+# My Programming Languages Roadmap for 2022
+1. JavaScript *
+2. Python *
 3. Java
 4. Go.
 5. Rust
@@ -9,4 +9,6 @@ My Programming Languages Roadmap for 2022
 7. Swift
 8. Kotlin
 9. C++
-10. ?????
+10. HTML/CSS *
+
+# * Denotes Already Started
