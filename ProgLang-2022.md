@@ -10,5 +10,6 @@
 8. Kotlin
 9. C++
 10. HTML/CSS *
+11. C
 
 # * Denotes Already Started
